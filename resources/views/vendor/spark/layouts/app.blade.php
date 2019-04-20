@@ -14,6 +14,13 @@
 
     <!-- CSS -->
     <link href="{{ mix(Spark::usesRightToLeftTheme() ? 'css/app-rtl.css' : 'css/app.css') }}" rel="stylesheet">
+    <style>
+        .img-bw {
+          -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(100%);
+        }
+
+    </style>
 
     <!-- Scripts -->
     @stack('scripts')

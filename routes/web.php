@@ -13,4 +13,6 @@
 
 Route::get('/', 'WelcomeController@show');
 
+Route::get('/lessons','Controller@lessonsIndex');
+
 Route::get('/home', 'HomeController@show');
