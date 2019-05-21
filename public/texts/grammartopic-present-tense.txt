@@ -1,0 +1,227 @@
+<h3>Present Tense</h3>
+<p>The present tense in Ukrainian is equivalent to both the present tense and the present progressive tense in English. <strong>я працюю </strong>can mean [I work] or [I am working].</p>
+<p>Verbs can be conjugated in the present tense according to the tables below.</p>
+<p>For verbs ending with the <strong>-ати </strong>suffix:</p>
+<p><strong>читати </strong>- to read</p>
+<table class="table table-striped table-sm">
+<tbody>
+<tr>
+<td>
+Я
+</td>
+<td>
+Чит<strong>аю</strong>
+</td>
+<td>
+I read
+</td>
+</tr>
+<tr>
+<td>
+ти
+</td>
+<td>
+Чит<strong>аєш</strong>
+</td>
+<td>
+you (informal) read
+</td>
+</tr>
+<tr>
+<td>
+він / вона
+</td>
+<td>
+Чит<strong>ає</strong>
+</td>
+<td>
+he / she reads
+</td>
+</tr>
+<tr>
+<td>
+ми
+</td>
+<td>
+Чит<strong>аємо</strong>
+</td>
+<td>
+we read
+</td>
+</tr>
+<tr>
+<td>
+ви
+</td>
+<td>
+чит<strong>аєте</strong>
+</td>
+<td>
+you (formal) read
+</td>
+</tr>
+<tr>
+<td>
+вони
+</td>
+<td>
+чит<strong>ають</strong>
+</td>
+<td>
+they read
+</td>
+</tr>
+</tbody>
+</table>
+<p>For verbs ending with the <strong>-ити </strong>suffix:</p>
+<p><strong>робити</strong> - to do</p>
+<table class="table table-striped table-sm">
+<tbody>
+<tr>
+<td>
+Я
+</td>
+<td>
+роб<strong>лю</strong>
+</td>
+<td>
+I do
+</td>
+</tr>
+<tr>
+<td>
+ти
+</td>
+<td>
+роб<strong>иш</strong>
+</td>
+<td>
+you (informal) do
+</td>
+</tr>
+<tr>
+<td>
+він / вона
+</td>
+<td>
+роб<strong>ить</strong>
+</td>
+<td>
+he / she does
+</td>
+</tr>
+<tr>
+<td>
+ми
+</td>
+<td>
+роб<strong>имо</strong>
+</td>
+<td>
+we do
+</td>
+</tr>
+<tr>
+<td>
+ви
+</td>
+<td>
+роб<strong>ите</strong>
+</td>
+<td>
+you (formal) do
+</td>
+</tr>
+<tr>
+<td>
+вони
+</td>
+<td>
+роб<strong>лять</strong>
+</td>
+<td>
+they do
+</td>
+</tr>
+</tbody>
+</table>
+<p>For verbs ending with the <strong>-вати </strong>suffix:</p>
+<p><strong>працювати</strong> - to work</p>
+<table class="table table-striped table-sm">
+<tbody>
+<tr>
+<td>
+Я
+</td>
+<td>
+працю<strong>ю</strong>
+</td>
+<td>
+I work
+</td>
+</tr>
+<tr>
+<td>
+ти
+</td>
+<td>
+працю<strong>єш</strong>
+</td>
+<td>
+you (informal) work
+</td>
+</tr>
+<tr>
+<td>
+він / вона
+</td>
+<td>
+працю<strong>є</strong>
+</td>
+<td>
+he / she works
+</td>
+</tr>
+<tr>
+<td>
+ми
+</td>
+<td>
+працю<strong>ємо</strong>
+</td>
+<td>
+we work
+</td>
+</tr>
+<tr>
+<td>
+ви
+</td>
+<td>
+працю<strong>єте</strong>
+</td>
+<td>
+you (formal) work
+</td>
+</tr>
+<tr>
+<td>
+вони
+</td>
+<td>
+працю<strong>ють</strong>
+</td>
+<td>
+they work
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Examples:</strong></p>
+<p> - <strong>Що ти робиш?</strong><br /> - <em>What are you doing?</em>
+<br />
+- <strong> Я читаю книгу.</strong><br /> - <em>I am reading a book.</em></p>
+
+<p> - <strong>Ти студент?</strong><br /> - <em>Are you a student?</em>
+<br />
+ - <strong>Ні, я працюю.</strong><br /> - <em>No, I work.</em></p>

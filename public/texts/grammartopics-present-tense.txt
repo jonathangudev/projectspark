@@ -1,0 +1,224 @@
+<p><strong>Present Tense</strong></p>
+<p>The present tense in Ukrainian is equivalent to both the present tense and the present progressive tense in English. <strong>я працюю </strong>can mean [I work] or [I am working].</p>
+<p>Verbs can be conjugated in the present tense according to the tables below.</p>
+<p>For verbs ending with the <strong>-ати </strong>suffix:</p>
+<p><strong>читати </strong>- to read</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p>Я</p>
+</td>
+<td>
+<p>Чит<strong>аю</strong></p>
+</td>
+<td>
+<p>I read</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ти</p>
+</td>
+<td>
+<p>Чит<strong>аєш</strong></p>
+</td>
+<td>
+<p>you (informal) read</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>він / вона</p>
+</td>
+<td>
+<p>Чит<strong>ає</strong></p>
+</td>
+<td>
+<p>he / she reads</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ми</p>
+</td>
+<td>
+<p>Чит<strong>аємо</strong></p>
+</td>
+<td>
+<p>we read</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ви</p>
+</td>
+<td>
+<p>чит<strong>аєте</strong></p>
+</td>
+<td>
+<p>you (formal) read</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>вони</p>
+</td>
+<td>
+<p>чит<strong>ають</strong></p>
+</td>
+<td>
+<p>they read</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>For verbs ending with the <strong>-ити </strong>suffix:</p>
+<p><strong>робити</strong> - to do</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p>Я</p>
+</td>
+<td>
+<p>роб<strong>лю</strong></p>
+</td>
+<td>
+<p>I do</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ти</p>
+</td>
+<td>
+<p>роб<strong>иш</strong></p>
+</td>
+<td>
+<p>you (informal) do</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>він / вона</p>
+</td>
+<td>
+<p>роб<strong>ить</strong></p>
+</td>
+<td>
+<p>he / she does</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ми</p>
+</td>
+<td>
+<p>роб<strong>имо</strong></p>
+</td>
+<td>
+<p>we do</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ви</p>
+</td>
+<td>
+<p>роб<strong>ите</strong></p>
+</td>
+<td>
+<p>you (formal) do</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>вони</p>
+</td>
+<td>
+<p>роб<strong>лять</strong></p>
+</td>
+<td>
+<p>they do</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>For verbs ending with the <strong>-вати </strong>suffix:</p>
+<p><strong>працювати</strong> - to work</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p>Я</p>
+</td>
+<td>
+<p>працю<strong>ю</strong></p>
+</td>
+<td>
+<p>I work</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ти</p>
+</td>
+<td>
+<p>працю<strong>єш</strong></p>
+</td>
+<td>
+<p>you (informal) work</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>він / вона</p>
+</td>
+<td>
+<p>працю<strong>є</strong></p>
+</td>
+<td>
+<p>he / she works</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ми</p>
+</td>
+<td>
+<p>працю<strong>ємо</strong></p>
+</td>
+<td>
+<p>we work</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>ви</p>
+</td>
+<td>
+<p>працю<strong>єте</strong></p>
+</td>
+<td>
+<p>you (formal) work</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>вони</p>
+</td>
+<td>
+<p>працю<strong>ють</strong></p>
+</td>
+<td>
+<p>they work</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Examples</strong></p>
+<ul>
+<li>- Що ти робиш? <em>What are you doing?</em><br />- Я читаю книгу. <em>I am reading a book.</em></li>
+</ul>
+<p>- Ти студент? <em>Are you a student?</em><br />- Ні, я працюю. <em>No, I work.</em></p>

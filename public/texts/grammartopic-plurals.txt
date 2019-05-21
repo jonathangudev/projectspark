@@ -1,0 +1,43 @@
+<h3>Plurals</h3>
+<p>In general, plurals are formed by adding either <strong>-</strong><strong>и</strong> or <strong>-і</strong> to the end of a noun.</p>
+<table class="table">
+<tbody>
+<tr>
+<td>
+<p><strong>фільм</strong><strong>&rarr; фільми</strong></p>
+</td>
+<td>
+<p>film &rarr; films</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>книга</strong><strong>&rarr; книги</strong></p>
+</td>
+<td>
+<p>book &rarr; books</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>кот &rarr; коти</strong></p>
+</td>
+<td>
+<p>cat &rarr; cats</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Some final consonants may change when the <strong>-</strong><strong>и</strong> / <strong>-і </strong>suffix is added:</p>
+<table class="table">
+<tbody>
+<tr>
+<td>
+<p><strong>друг</strong><strong>&rarr; друзі </strong></p>
+</td>
+<td>
+<p>friend &rarr; friends</p>
+</td>
+</tr>
+</tbody>
+</table>

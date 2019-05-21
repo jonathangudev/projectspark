@@ -1,0 +1,206 @@
+<h3 >
+    The Genitive Case
+</h3>
+<p >
+    <b>Formation of the Genitive Case</b>
+</p>
+<p >
+    The genitive case is formed by modifying the ending of a noun. Although
+    exceptions and special rules exist, these three simple rules are enough to
+    cover how noun endings change in the vast majority of cases.
+</p>
+<ol>
+    <li >
+        <p >
+            -а → -и
+        </p>
+    </li>
+    <li >
+        <p >
+            -o → -а
+            <br/>
+            -е → -а
+        </p>
+    </li>
+    <li >
+        <p >
+            [consonant] + a
+        </p>
+    </li>
+</ol>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-10">
+      <table class="table table-bordered">
+          <colgroup>
+              <col width="33%"/>
+              <col width="33%"/>
+              <col width="33%"/>
+          </colgroup>
+          <tbody>
+              <tr>
+                  <td>
+                      <p >
+                          -а → -и
+                      </p>
+                  </td>
+                  <td>
+                      <p >
+                          -o → -а
+                          <br/>
+                          -е → -а
+                      </p>
+                  </td>
+                  <td>
+                      <p >
+                          [consonant] + a
+                      </p>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p >
+                          сестра → сестри
+                      </p>
+                      <p >
+                          дівчина → дівчини
+                      </p>
+                      <br/>
+                      <p >
+                          Надя → Надії<sup>1</sup>
+                      </p>
+                  </td>
+                  <td>
+                      <p >
+                          слово → слова
+                      </p>
+                      <p >
+                          місто → міста
+                      </p>
+                      <br/>
+                      <p >
+                          море → моря<sup>2</sup>
+                          <br/>
+                          сонце → сонця
+                      </p>
+                  </td>
+                  <td>
+                      <p >
+                          брат → брата
+                      </p>
+                      <p >
+                          читач → читача
+                      </p>
+                      <br/>
+                      <p >
+                          лікар → лікаря<sup>3</sup>
+                      </p>
+                      <br/>
+                  </td>
+              </tr>
+              <tr>
+                  <td>
+                      <p >
+                          1. We also have the rule я → ї.
+                      </p>
+                  </td>
+                  <td>
+                      <p >
+                          2. With certain consonants, we have: e → я
+                      </p>
+                  </td>
+                  <td>
+                      <p >
+                          3. With certain consonants we have: [consonant] + я
+                      </p>
+                  </td>
+              </tr>
+          </tbody>
+      </table>
+      </div>
+  </div>
+</div>
+<p >
+    <b>When to use the Genitive Case</b>
+</p>
+<ol>
+    <li >
+        <p >
+            <b>To express origin / possession / ownership.</b>
+            <br/>
+            комісія - commission
+            <br/>
+            Звіт комісії - The commission’s report.
+            <br/>
+            <br/>
+            собака - dog
+            <br/>
+            Батько собаки - The dog’s father
+            <br/>
+            <br/>
+            Олег - Oleg
+            <br/>
+            Ноутбук Олега - Oleg’s notebook
+            <br/>
+            <br/>
+        </p>
+    </li>
+    <li >
+        <p >
+            <b>Where the English word “of” would be used.</b>
+            <br/>
+            місяць - month
+            <br/>
+            кінець місяця - end of the month
+            <br/>
+            <br/>
+        </p>
+    </li>
+    <li >
+        <p >
+            <b>With the adverbs з (from), до (to), від (away from).</b>
+            <br/>
+            Київ - Kiev, Львів - Lviv
+            <br/>
+            з Києва до Львова - from Kiev to Lviv*
+            <br/>
+            *Note that the vowels in the final syllable of a word can sometimes
+            change in the genitive form.
+        </p>
+    </li>
+</ol>
+<ol start="4">
+    <li >
+        <p >
+            <b>With the adverbs без (without).</b>
+            <br/>
+            молоко - milk
+            <br/>
+            кава без молока
+            <br/>
+            <br/>
+        </p>
+    </li>
+</ol>
+<p >
+    <b>Tip on remembering how to use the genitive case:</b>
+</p>
+<p >
+    So what does the word “genitive” even mean, and why is this one case used
+    for so many different grammatical situations? The common theme behind all
+    the different uses of the genitive case is one of either “origin” (the word
+    genitive comes from the Latin word “genesis”), or of “negation / absence”
+    (as with negative sentences and with the preposition без - “without”).
+</p>
+<p >
+    <b>Genitive as expressing origin:</b>
+</p>
+<p >
+    We can think of possession / belonging as expressing that the owner is the
+    “origin” of an object. The verbs із and від both mean “from”, and indicate
+    “being from” a place, or movement “away from” a place, again having this
+    idea of “coming from” a point of origin. Even location words that use the
+    genitive can be thought of as expressing location of something relative to
+    a point of origin.
+</p>

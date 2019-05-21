@@ -1,0 +1,75 @@
+/* =================================
+  Tooltip
+==================================== */
+
+/* Tooltip text */
+
+span.foreign-word {
+  position: relative;
+  display: inline;
+}
+
+span.english-script {
+  display: none;
+}
+
+span.foreign-word .tooltip {
+
+  padding: 15px;
+
+  font-size: x-large;
+
+  position: absolute;
+  width:140px;
+  color: #000000;
+  background: #D1FFC9;
+  line-height: 25px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 8px;
+
+  opacity: 0;
+
+  opacity: 1.0;
+  bottom: 29px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 1030;
+
+  transition: 0.05s;
+
+  border-top: 1px solid #C0DDB1;
+  border-right: 1px solid #C0DDB1;
+}
+span.foreign-word .tooltip:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -12px;
+  width: 0; height: 0;
+  border-top: 12px solid #D1FFC9;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+}
+span:hover.foreign-word .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+span:hover.foreign-word {
+  background-color: #D1FFC9;
+}
+
+.tooltip:hover {
+  visibility: visible;
+  opacity: 1;
+
+}
+
+.tooltip-foreign-word {
+  display: block;
+  line-height: 25px;
+  font-size: small;
+  margin-bottom: 10px;
+}

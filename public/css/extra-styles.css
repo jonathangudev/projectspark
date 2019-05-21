@@ -1,0 +1,42 @@
+/* =================================
+  Extra Styles - for Headers, etc.
+==================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+h1 {
+  color: purple;
+	font-family: 'Arvo';
+}
+
+.english-script {
+  display: none;
+}
+
+html {
+  font-size: 1rem;
+}
+
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}

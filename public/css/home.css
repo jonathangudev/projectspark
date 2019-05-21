@@ -1,0 +1,38 @@
+/* =================================
+  Home
+==================================== */
+.container {
+}
+
+.splash {
+  margin-bottom: auto;
+}
+
+.testimonial-quotation{
+
+  font-family: "Times New Roman", Times, serif;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.testimonial-quotation:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 10px;
+  color: #ccc;
+  font-size: 3em;
+}
+.testimonial-quotation::after {
+  content: close-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 20px;
+  color: #ccc;
+  font-size: 3em;
+}

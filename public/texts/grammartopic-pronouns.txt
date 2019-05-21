@@ -1,0 +1,196 @@
+<p><strong>Pronouns</strong></p>
+<p>The subject pronouns in Ukrainian are as follows:</p>
+<table class="table table-striped">
+<tbody>
+<tr>
+<td>
+<p><strong>I</strong></p>
+</td>
+<td>
+<p>Я</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>you (informal)</strong></p>
+</td>
+<td>
+<p>ти</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>he / she</strong></p>
+</td>
+<td>
+<p>він / вона</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>we</strong></p>
+</td>
+<td>
+<p>ми</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>you (formal / plural)</strong></p>
+</td>
+<td>
+<p>ви</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>they</strong></p>
+</td>
+<td>
+<p>вони</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>As in English, the pronouns will change based on whether the the pronoun is the subject of the sentence or the object of the verb (accusative case) or the beneficiary of the action of the verb (dative case).</p>
+<table class="table table-striped">
+<tbody>
+<tr>
+<td colspan="2">
+<p><strong>Subject</strong></p>
+</td>
+<td colspan="2">
+<p><strong>Accusative (object of verb)</strong></p>
+</td>
+<td colspan="2">
+<p><strong>Dative (beneficiary of action)</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>I</strong></p>
+</td>
+<td>
+<p>Я</p>
+</td>
+<td>
+<p><strong>I</strong></p>
+</td>
+<td>
+<p>мене</p>
+</td>
+<td>
+<p><strong>I</strong></p>
+</td>
+<td>
+<p>мені</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>you (informal)</strong></p>
+</td>
+<td>
+<p>ти</p>
+</td>
+<td>
+<p><strong>you (informal)</strong></p>
+</td>
+<td>
+<p>тебе</p>
+</td>
+<td>
+<p><strong>you (informal)</strong></p>
+</td>
+<td>
+<p>тобі</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>he / she</strong></p>
+</td>
+<td>
+<p>він / вона</p>
+</td>
+<td>
+<p><strong>him / her</strong></p>
+</td>
+<td>
+<p>його / її</p>
+</td>
+<td>
+<p><strong>him / her</strong></p>
+</td>
+<td>
+<p>йому / їй</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>we</strong></p>
+</td>
+<td>
+<p>ми</p>
+</td>
+<td>
+<p><strong>us</strong></p>
+</td>
+<td>
+<p>нас</p>
+</td>
+<td>
+<p><strong>us</strong></p>
+</td>
+<td>
+<p>нам</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>you (formal / plural)</strong></p>
+</td>
+<td>
+<p>ви</p>
+</td>
+<td>
+<p><strong>you (formal / plural)</strong></p>
+</td>
+<td>
+<p>вас</p>
+</td>
+<td>
+<p><strong>you (formal / plural)</strong></p>
+</td>
+<td>
+<p>вам</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong>they</strong></p>
+</td>
+<td>
+<p>вони</p>
+</td>
+<td>
+<p><strong>them</strong></p>
+</td>
+<td>
+<p>їх</p>
+</td>
+<td>
+<p><strong>them</strong></p>
+</td>
+<td>
+<p>їм</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>- <strong>Іван подарував </strong><strong>мені</strong><strong> подарунок. </strong>(dative)<br>
+- Ivan gave me a present.</p>
+<p>- <strong>Я </strong><strong>тебе</strong><strong> люблю. </strong>(accusative)<br>
+- I love you.</p>
+<p>- <strong>Оксана хоче </strong><strong>його</strong><strong>. </strong>(accusative)<br>
+- Oksana wants him.</p>

@@ -1,0 +1,185 @@
+<h3>Future Tense</h3>
+<p>There are two ways to express action in the future in Ukrainian, through the future perfect tense, and the future imperfect tense.</p>
+<p>The <strong>future perfect tense</strong> is used to express actions in such a way to emphasize that they will be completed (I will paint a painting, I will watch this movie).</p>
+<p>The <strong>future imperfect tense</strong> is used to express that actions will be performed continuously (I will be reading a book, I will be visiting family).</p>
+<h4><strong>Background</strong></h4>
+<p>To understand how to form the <strong>future perfect tense</strong>, we have to describe how verbs work in Ukrainian. Verbs in Ukrainian can have two aspects: perfective and imperfective, distinguished by a prefix that varies from verb to verb. When a verb with the <strong>imperfective aspect</strong> is conjugated, the verb is in the <strong>present tense</strong>. When a verb with the <strong>perfective aspect</strong> is conjugated, the verb is in the <strong>future perfect tense</strong>.</p>
+<table class="table-striped table-sm table-bordered">
+<tbody>
+<tr>
+<td>
+<strong>verb</strong>
+</td>
+<td>
+<strong>imperfective</strong>
+</td>
+<td>
+<strong>perfective</strong>
+</td>
+</tr>
+<tr>
+<td>
+<strong>to read</strong>
+</td>
+<td>
+<strong>читати</strong>
+</td>
+<td>
+<strong>прочитати</strong>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<strong>Я читаю цю книгу.</strong>
+</td>
+<td>
+<strong>Я прочитаю цю книгу.</strong>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+I read this book. / I am reading this book.
+</td>
+<td>
+I will read this book.
+</td>
+</tr>
+</tbody>
+</table class="table table-striped table-sm table-bordered"
+
+<p></p>
+
+<h4><strong>Forming the future perfect tense</strong></h4>
+<p>To form the <strong>future perfect tense</strong>:</p>
+<p>(1) Take the imperfective form of the verb. (This is considered the base form) <strong>читати</strong></p>
+<p>(2) Add a prefix to change it to the perfective aspect. <strong>про + читати = прочитати</strong></p>
+<p>(3) Conjugate in the present tense based on the subject. <strong>Я прочитаю.</strong></p>
+<p>The prefix that must be added to a verb to form the perfective form of the verb varies from verb to verb and must be memorized.</p>
+<p><strong>Examples:</strong></p>
+<table class="table-striped table-sm table-bordered">
+<tbody>
+<tr>
+<td>
+<strong>verb</strong>
+</td>
+<td>
+<strong>imperfective</strong>
+</td>
+<td>
+<strong>perfective</strong>
+</td>
+</tr>
+<tr>
+<td>
+to eat
+</td>
+<td>
+читати
+</td>
+<td>
+прочитати
+</td>
+</tr>
+<tr>
+<td>
+to do
+</td>
+<td>
+робити
+</td>
+<td>
+зробити
+</td>
+</tr>
+<tr>
+<td>
+to have lunch
+</td>
+<td>
+обідати
+</td>
+<td>
+пообідати
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<h4><strong>Forming the future imperfect tense</strong></h4>
+<p>To form the <strong>future imperfect tense</strong>, use the following construction:</p>
+<p>[conjugated <strong>бути</strong>] + [imperfective verb]</p>
+<p><strong>читати</strong></p>
+<table class="table table-striped table-sm table-bordered">
+<tbody>
+<tr>
+<td>
+Я
+</td>
+<td>
+бу́ду читати
+</td>
+<td>
+I will be reading
+</td>
+</tr>
+<tr>
+<td>
+ти
+</td>
+<td>
+бу́деш читати
+</td>
+<td>
+you (informal) will be reading
+</td>
+</tr>
+<tr>
+<td>
+він / вона
+</td>
+<td>
+бу́де читати
+</td>
+<td>
+he / she will be reading
+</td>
+</tr>
+<tr>
+<td>
+ми
+</td>
+<td>
+бу́демо читати
+</td>
+<td>
+we will be reading
+</td>
+</tr>
+<tr>
+<td>
+ви
+</td>
+<td>
+бу́дете читати
+</td>
+<td>
+you (formal) will be reading
+</td>
+</tr>
+<tr>
+<td>
+вони
+</td>
+<td>
+бу́дуть читати
+</td>
+<td>
+they will be reading
+</td>
+</tr>
+</tbody>
+</table>

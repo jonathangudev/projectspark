@@ -13,6 +13,38 @@
 
 Route::get('/', 'WelcomeController@show');
 
-Route::get('/lessons','Controller@lessonsIndex');
+Route::get('/lessons', function () {
+    return view('table_of_contents');
+});
 
 Route::get('/home', 'HomeController@show');
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/links', function () {
+    return view('links');
+});
+
+Route::get('/lessons', function () {
+    return view('table_of_contents');
+});
+
+Route::get('/grammar', function () {
+    return view('grammar_toc');
+});
+
+
+Route::get('/lessons/{dialogue_number}', function ($dialogue_number) {
+    return view('lessons', [
+        'dialogue_number' => $dialogue_number
+    ]);
+});
+
+Route::get('/grammar/{grammar_topic}', function ($grammar_topic) {
+    return view('grammar_lesson', [
+        'grammar_topic' => $grammar_topic
+    ]);
+});
+//end static pages
