@@ -16,6 +16,7 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
 
 <script>
   $("#toggleTransliterationButton").click(function() {
+    console.log("clicked and in function");
     $(".foreign-script").toggle();
     $(".english-script").toggle();
   });
