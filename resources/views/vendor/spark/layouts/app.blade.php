@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta Information -->
     <meta charset="utf-8">
@@ -14,12 +15,13 @@
 
     <!-- CSS -->
     <link href="{{ mix(Spark::usesRightToLeftTheme() ? 'css/app-rtl.css' : 'css/app.css') }}" rel="stylesheet">
+    @yield('css')
     <style>
         .img-bw {
-          -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-          filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
+            /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
         }
-
     </style>
 
     <!-- Scripts -->
@@ -30,13 +32,14 @@
         window.Spark = @json(array_merge(Spark::scriptVariables(), []));
     </script>
 </head>
+
 <body>
     <div id="spark-app" v-cloak>
         <!-- Navigation -->
         @if (Auth::check())
-            @include('spark::nav.user')
+        @include('spark::nav.user')
         @else
-            @include('spark::nav.guest')
+        @include('spark::nav.guest')
         @endif
 
         <!-- Main Content -->
@@ -46,9 +49,9 @@
 
         <!-- Application Level Modals -->
         @if (Auth::check())
-            @include('spark::modals.notifications')
-            @include('spark::modals.support')
-            @include('spark::modals.session-expired')
+        @include('spark::modals.notifications')
+        @include('spark::modals.support')
+        @include('spark::modals.session-expired')
         @endif
     </div>
 
@@ -56,4 +59,5 @@
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="/js/sweetalert.min.js"></script>
 </body>
+
 </html>

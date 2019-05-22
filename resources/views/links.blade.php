@@ -1,7 +1,16 @@
-@extends('spark::layouts.app')
+@extends('layouts.layout')
+
+@section('title')
+- Links
+@endsection
+
+
+@section('css')
+<link href="css/extra-styles.css" rel="stylesheet">
+@endsection
+
 
 @section('content')
-
 <home :user="user" inline-template>
 	<div class="container">
 		<div class="other-resources-links">
@@ -61,10 +70,8 @@
 
 				<li>Ukrainian Language and Culture School in Lviv<br>
 					<a href="http://learn-ukrainian.org.ua/">learn-ukrainian.org.ua</a></li>
+
+
 		</div>
-
-	</div>
 </home>
-
-
 @endsection
