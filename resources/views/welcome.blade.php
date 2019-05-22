@@ -82,7 +82,7 @@
 <body>
     <div class="full-height flex-column">
 
-        <div class="flex-fill flex-center">
+        <div class="">
 
             <header>
                 <!-- Fixed navbar -->
@@ -107,7 +107,15 @@
                             <a class="nav-link" href="/blog">Blog</a>
                         </li>
 
+                        <li>
+                            <a class="nav-link" href="/login">
+                                <button class="btn btn-primary btn-sm"> Login</button>
+                            </a></li>
 
+                        <li>
+                            <a class="nav-link" href="/register">
+                                <button class="btn btn-primary btn-sm"> Register</button>
+                            </a></li>
 
                     </ul>
                 </nav>
@@ -140,16 +148,6 @@
                             <div class="text-center">
                                 <a href="/lessons" class="btn btn-sm btn-secondary mx-auto">Start learning now</a>
                             </div>
-
-                            <div>
-                                <a class="nav-link" href="/login">
-                                    <button class="btn btn-primary btn-sm"> Login</button>
-                                </a></div>
-
-                            <div>
-                                <a class="nav-link" href="/register">
-                                    <button class="btn btn-primary btn-sm"> Register</button>
-                                </a></div>
                         </div>
 
                     </div>
