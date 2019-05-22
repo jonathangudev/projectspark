@@ -54,11 +54,11 @@ Study Ukrainian - Ukrainian Lessons
 
         <div class="col-6 mt-3 col-md-3">
           <div class="card">
-            <a href="<?php echo "lessons/$i/"; ?>"><img class="card-img-top" src="<?php echo "../img/$index.jpg"; ?>" alt="Card image cap"></a>
+            <a href="<?php echo "lessons/$i"; ?>"><img class="card-img-top" src="<?php echo "../img/$index.jpg"; ?>" alt="Card image cap"></a>
             <div class="card-body">
               <div class="card-title text-center"><?php echo "<b>Lesson $i</b>: $topic_text"; ?></div>
               <p class="card-text text-center"></p>
-              <div class="mx-auto text-center"><a href="<?php echo "lessons/$i/"; ?>" class="btn btn-success btn-sm text-center ">Go to lesson</a></div>
+              <div class="mx-auto text-center"><a href="<?php echo "lessons/$i"; ?>" class="btn btn-success btn-sm text-center ">Go to lesson</a></div>
             </div>
           </div>
         </div>

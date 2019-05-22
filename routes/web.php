@@ -24,7 +24,8 @@ Route::get('/links', function () {
 });
 
 Route::get('/lessons', function () {
-    return view('lessons');
+    //eturn view('lessons');
+    return view('table_of_contents')
 });
 
 Route::get('/toc', function () {
