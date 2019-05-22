@@ -13,10 +13,6 @@
 
 Route::get('/', 'WelcomeController@show');
 
-Route::get('/lessons', function () {
-    return view('table_of_contents');
-});
-
 Route::get('/home', 'HomeController@show');
 
 Route::get('/about', function () {
