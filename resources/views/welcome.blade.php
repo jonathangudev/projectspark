@@ -122,10 +122,10 @@
             </header>
 
             <!-- Begin page content -->
-            <main role="main" class="container">
+            <main role="main" class="container mt-5 mt-5-lg">
 
 
-                <div class="row">
+                <div class="row ">
                     <div class="col-sm-12 col-md-6 text-center">
                         <div>
                             <img class="img-fluid mx-auto" src="/img/logo.png"></img>
