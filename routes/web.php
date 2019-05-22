@@ -11,7 +11,7 @@
 |
 */
 
-if (Auth::user()->subscribed()) {
+if (Auth::user() && Auth::user()->subscribed()) {
     $subscribed = true;
 } else {
     $subscribed = false;
