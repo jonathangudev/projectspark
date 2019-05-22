@@ -27,6 +27,13 @@ class HomeController extends Controller
      */
     public function show()
     {
-        return view('home');
+
+        if (Auth::user()->subscribed()) {
+            $subscribed = true;
+        } else {
+            $subscribed = false;
+        }
+
+        return view('home', ['subscribed' => $subscribed]);
     }
 }

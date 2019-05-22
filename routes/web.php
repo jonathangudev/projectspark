@@ -11,6 +11,12 @@
 |
 */
 
+if (Auth::user()->subscribed()) {
+    $subscribed = true;
+} else {
+    $subscribed = false;
+}
+
 Route::get('/', 'WelcomeController@show');
 
 Route::get('/home', 'HomeController@show');
@@ -35,7 +41,6 @@ Route::get('/toc', function () {
 Route::get('/grammar', function () {
     return view('grammar_toc');
 });
-
 
 Route::get('/lessons/{dialogue_number}', function ($dialogue_number) {
 
