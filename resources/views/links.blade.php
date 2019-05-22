@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('spark::layouts.app')
 
 @section('title')
 - Links
