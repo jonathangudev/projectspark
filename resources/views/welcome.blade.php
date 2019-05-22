@@ -88,7 +88,7 @@
                 <!-- Fixed navbar -->
                 <nav class="navbar navbar-expand navbar-light fixed-top bg-white">
 
-                    <ul class="navbar-nav navbar-right  ml-auto">
+                    <ul class="navbar-nav navbar-right  ml-auto align-items-end">
 
 
                         <li class="nav-item">
