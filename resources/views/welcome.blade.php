@@ -106,12 +106,12 @@
                     </li>
 
                     <li>
-                        <a href="/login">
+                        <a class="nav-link" ref="/login">
                             Login
                         </a></li>
 
                     <li>
-                        <a href="/register">
+                        <a class="nav-link" href="/register">
                             Register
                         </a></li>
 
@@ -120,7 +120,7 @@
         </header>
 
 
-        <div class="flex-fill flex-center">
+        <div class="flex-fill">
             <!-- Begin page content -->
             <main role="main" class="container">
 
