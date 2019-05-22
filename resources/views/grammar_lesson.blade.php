@@ -6,7 +6,7 @@ Study Ukrainian - Grammar - <?php echo $grammar_topic; ?>
 
 
 @section('css')
-<link href="../../css/extra-styles.css" rel="stylesheet">
+<link href="/css/extra-styles.css" rel="stylesheet">
 @endsection
 
 
