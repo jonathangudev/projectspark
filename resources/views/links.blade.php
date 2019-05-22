@@ -23,7 +23,7 @@
 			</ul>
 		</div>
 
-		<div class"media-resources-links">
+		<div class="media-resources-links">
 			<h1 class="text-center">Ukrainian-Language Media</h1>
 			<ul>
 				<li>Ukrainian and Russian Language Television Channel:<br>
