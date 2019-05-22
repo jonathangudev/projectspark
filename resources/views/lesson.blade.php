@@ -20,6 +20,12 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
     $(".foreign-script").toggle();
     $(".english-script").toggle();
   });
+
+  function transliterate() {
+    console.log("clicked and in transliterate function");
+    $(".foreign-script").toggle();
+    $(".english-script").toggle();
+  }
 </script>
 
 
@@ -92,7 +98,7 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
 
   <!-- Transliteration and Translation Buttons / Toggles -->
   <div class="text-center">
-    <button class="btn btn-info" id="toggleTransliterationButton">Toggle Transliteration</button>
+    <button class="btn btn-info" id="toggleTransliterationButton" onclick='transliterate()'>Toggle Transliteration</button>
     <!--button class="btn btn-info" onclick="toggleDefinitions()" >Show Literal Translations</button-->
   </div>
 
