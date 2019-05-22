@@ -352,14 +352,14 @@ class Lesson
   function buildNextDialogueButton()
   {
     $next_dialogue_number = $this->dialogue_number + 1;
-    echo "<a href='$next_dialogue_number' class='btn btn-info' id='next-lesson-button' >Next Lesson</a>";
+    echo "<a href='../$next_dialogue_number' class='btn btn-info' id='next-lesson-button' >Next Lesson</a>";
   }
 
 
   function buildPreviousDialogueButton()
   {
     $previous_dialogue_number = $this->dialogue_number - 1;
-    echo "<a href='$previous_dialogue_number' class='btn btn-info' id='next-lesson-button' >Previous Lesson</a>";
+    echo "<a href='../$previous_dialogue_number' class='btn btn-info' id='next-lesson-button' >Previous Lesson</a>";
   }
 }
 
