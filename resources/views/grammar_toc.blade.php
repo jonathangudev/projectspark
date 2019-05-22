@@ -6,8 +6,8 @@ Study Ukrainian - Ukrainian Grammar
 
 
 @section('css')
-<link href="css/extra-styles.css" rel="stylesheet">
-<link href="css/table-of-contents.css" rel="stylesheet">
+<link href="/css/extra-styles.css" rel="stylesheet">
+<link href="/css/table-of-contents.css" rel="stylesheet">
 
 @endsection
 
