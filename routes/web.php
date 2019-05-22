@@ -24,6 +24,10 @@ Route::get('/links', function () {
 });
 
 Route::get('/lessons', function () {
+    return view('lessons');
+});
+
+Route::get('/toc', function () {
     return view('table_of_contents');
 });
 
@@ -33,7 +37,7 @@ Route::get('/grammar', function () {
 
 
 Route::get('/lessons/{dialogue_number}', function ($dialogue_number) {
-    return view('lessons', [
+    return view('lesson', [
         'dialogue_number' => $dialogue_number
     ]);
 });
