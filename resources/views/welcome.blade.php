@@ -106,13 +106,13 @@
                     </li>
 
                     <li>
-                        <a class="nav-link" ref="/login">
-                            Login
+                        <a class="nav-link" href="/login">
+                            <button class="btn btn-primary"> Login</button>
                         </a></li>
 
                     <li>
                         <a class="nav-link" href="/register">
-                            Register
+                            <button class="btn btn-primary"> Register</button>
                         </a></li>
 
                 </ul>
@@ -120,12 +120,12 @@
         </header>
 
 
-        <div class="flex-fill">
+        <div class="flex-fill flex-center">
             <!-- Begin page content -->
             <main role="main" class="container">
 
 
-                <div class="row mt-5">
+                <div class="row">
                     <div class="col-sm-12 col-md-6 text-center">
                         <div>
                             <img class="img-fluid mx-auto" src="/img/logo.png"></img>
