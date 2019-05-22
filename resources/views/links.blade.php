@@ -1,7 +1,7 @@
 @extends('spark::layouts.app')
 
 @section('title')
-- Links
+Study Ukrainian - Links
 @endsection
 
 
