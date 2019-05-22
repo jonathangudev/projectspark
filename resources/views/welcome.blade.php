@@ -81,19 +81,44 @@
 
 <body>
     <div class="full-height flex-column">
-        <nav class="links">
-            <a href="/login" style="margin-right: 15px;">
-                <button>
-                    {{__('Login')}}
-                </button>
-            </a>
 
-            <a href="/register">
-                <button>
-                    {{__('Register')}}
-                </button>
-            </a>
-        </nav>
+        <header>
+            <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand navbar-light fixed-top bg-white">
+
+                <ul class="navbar-nav navbar-right  ml-auto">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lessons">Lessons</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/grammar">Grammar</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="/login">
+                            Login
+                        </a></li>
+
+                    <li>
+                        <a href="/register">
+                            Register
+                        </a></li>
+
+                </ul>
+            </nav>
+        </header>
+
 
         <div class="flex-fill flex-center">
             <!-- Begin page content -->
