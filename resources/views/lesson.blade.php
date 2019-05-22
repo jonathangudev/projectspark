@@ -1,83 +1,13 @@
-@extends('layouts.layout')
+@extends('spark::layouts.app')
 
 @section('title')
-- Ukrainian Lesson <?php echo $dialogue_number; ?>
+Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
 @endsection
 
 @section('css')
 <link href="../../css/sticky-footer-navbar.css" rel="stylesheet"> <!-- from: http://getbootstrap.com/docs/4.0/examples/sticky-footer-navbar/# -->
 <link href="../../css/tooltip.css" rel="stylesheet">
 <link href="../../css/extra-styles.css" rel="stylesheet">
-
-@endsection
-
-
-<?php $lesson = new Lesson($dialogue_number); ?>
-
-
-
-@section('content')
-
-<!-- Title -->
-<div class="text-center">
-  <h1><?php echo "Dialogue $dialogue_number"; ?> </h1>
-</div>
-
-<!-- Image -->
-<div class="row justify-content-center">
-  <div class="col-md-10 col-lg-3  text-center" />
-  <img class="mx-auto rounded img-fluid" src="<?php echo $lesson->getImageSource(); ?>">
-
-  <div class="pt-2 text-left text-secondary"></div>
-</div>
-<!-- /div -->
-
-<!-- Dialogue Table -->
-<!-- div class="row justify-content-center  "-->
-
-<div class="col-md-10 col-lg-9 px-3 mt-3 mt-lg-0">
-
-  <table class="mx-auto table table-striped table-sm" id="lesson-dialogue-table">
-    <?php $lesson->buildTable(); ?>
-  </table>
-
-  <?php $lesson->buildFullAudioElement(); ?>
-
-</div>
-
-</div>
-
-
-<!-- Transliteration and Translation Buttons / Toggles -->
-<div class="text-center">
-  <button class="btn btn-info" id="toggleTransliterationButton">Toggle Transliteration</button>
-  <!--button class="btn btn-info" onclick="toggleDefinitions()" >Show Literal Translations</button-->
-</div>
-
-
-
-<div class="row justify-content-center">
-  <div class="grammar-explanation col-md-10 mt-3">
-    <h3>Grammar Notes</h3>
-    <div id="grammar-explanation">
-
-      <?php echo $lesson->getGrammarText(); ?>
-
-    </div>
-  </div>
-</div>
-
-<div class="text-center">
-
-  <?php if ($lesson->dialogue_number >  1) {
-    $lesson->buildPreviousDialogueButton();
-  } ?>
-  <?php if ($lesson->dialogue_number <  20) {
-    $lesson->buildNextDialogueButton();
-  } ?>
-
-</div>
-
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -119,9 +49,85 @@
   }
 </script>
 
+@endsection
 
+
+<?php $lesson = new Lesson($dialogue_number); ?>
+
+
+
+@section('content')
+<home :user="user" inline-template>
+  <div class="container">
+
+    <!-- Title -->
+    <div class="text-center">
+      <h1><?php echo "Dialogue $dialogue_number"; ?> </h1>
+    </div>
+
+    <!-- Image -->
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-3  text-center" />
+      <img class="mx-auto rounded img-fluid" src="<?php echo $lesson->getImageSource(); ?>">
+
+      <div class="pt-2 text-left text-secondary"></div>
+    </div>
+    <!-- /div -->
+
+    <!-- Dialogue Table -->
+    <!-- div class="row justify-content-center  "-->
+
+    <div class="col-md-10 col-lg-9 px-3 mt-3 mt-lg-0">
+
+      <table class="mx-auto table table-striped table-sm" id="lesson-dialogue-table">
+        <?php $lesson->buildTable(); ?>
+      </table>
+
+      <?php $lesson->buildFullAudioElement(); ?>
+
+    </div>
+
+  </div>
+
+
+  <!-- Transliteration and Translation Buttons / Toggles -->
+  <div class="text-center">
+    <button class="btn btn-info" id="toggleTransliterationButton">Toggle Transliteration</button>
+    <!--button class="btn btn-info" onclick="toggleDefinitions()" >Show Literal Translations</button-->
+  </div>
+
+
+
+  <div class="row justify-content-center">
+    <div class="grammar-explanation col-md-10 mt-3">
+      <h3>Grammar Notes</h3>
+      <div id="grammar-explanation">
+
+        <?php echo $lesson->getGrammarText(); ?>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center">
+
+    <?php if ($lesson->dialogue_number >  1) {
+      $lesson->buildPreviousDialogueButton();
+    } ?>
+    <?php if ($lesson->dialogue_number <  20) {
+      $lesson->buildNextDialogueButton();
+    } ?>
+
+  </div>
+  </div>
+</home>
 
 @endsection
+
+
+
+
+
 
 
 <?php
@@ -154,10 +160,10 @@ class Lesson
   function getIndexVersion($n)
   {
     if ($n > 9) {
-        $index_value  = $n;
-      } else {
-        $index_value  = "0" . $n;
-      }
+      $index_value  = $n;
+    } else {
+      $index_value  = "0" . $n;
+    }
 
     return $index_value;
   }
@@ -287,19 +293,19 @@ class Lesson
 
     for ($i = 0; $i < $numDialogueRows; $i++) {
 
-        $audio_link = $this->getAudio($i);
+      $audio_link = $this->getAudio($i);
 
-        echo        "<tr> \n";
-        echo "        <td><b>$speaker_array[$i]</b></td> \n";
-        echo "        <td>";
-        $this->buildForeignPhraseElement($foreign_array[$i], $literal_definitions_array[$i]);
-        echo "</td> \n";
-        echo "        <td>$english_array[$i]</td> \n";
-        echo "        <td>";
-        $this->buildAudioElement($audio_link, $i);
-        echo "</td> \n";
-        echo "      </tr> \n \n      ";
-      }
+      echo        "<tr> \n";
+      echo "        <td><b>$speaker_array[$i]</b></td> \n";
+      echo "        <td>";
+      $this->buildForeignPhraseElement($foreign_array[$i], $literal_definitions_array[$i]);
+      echo "</td> \n";
+      echo "        <td>$english_array[$i]</td> \n";
+      echo "        <td>";
+      $this->buildAudioElement($audio_link, $i);
+      echo "</td> \n";
+      echo "      </tr> \n \n      ";
+    }
   }
 
   function buildFullAudioElement()
@@ -332,16 +338,16 @@ class Lesson
 
 
     foreach ($words_array as $word) {
-        $definition = $definitions_array[$word_index];
+      $definition = $definitions_array[$word_index];
 
-        //Transliteration of Ukrainian words (need to create this object to use transliterator function in the foreach loop)
-        $transliteratedWord = $phraseTransliterator->convert($word);
+      //Transliteration of Ukrainian words (need to create this object to use transliterator function in the foreach loop)
+      $transliteratedWord = $phraseTransliterator->convert($word);
 
-        echo "<span class='foreign-word foreign-script' id='foreign-script'>$word <span  id = 'tooltip' class ='tooltip'> <span class='tooltip-foreign-word'>" . str_replace($punctuation, "", $word) . "</span><span>$definition</span></span></span> \n";
-        echo "<span class='foreign-word english-script' id='english-script'>$transliteratedWord <span  id = 'tooltip' class ='tooltip'> <span class='tooltip-foreign-word'>" . str_replace($punctuation, "", $word) . "</span><span>$definition</span></span></span> \n";
+      echo "<span class='foreign-word foreign-script' id='foreign-script'>$word <span  id = 'tooltip' class ='tooltip'> <span class='tooltip-foreign-word'>" . str_replace($punctuation, "", $word) . "</span><span>$definition</span></span></span> \n";
+      echo "<span class='foreign-word english-script' id='english-script'>$transliteratedWord <span  id = 'tooltip' class ='tooltip'> <span class='tooltip-foreign-word'>" . str_replace($punctuation, "", $word) . "</span><span>$definition</span></span></span> \n";
 
-        $word_index = $word_index + 1;
-      }
+      $word_index = $word_index + 1;
+    }
   }
 
   function buildNextDialogueButton()
