@@ -29,7 +29,7 @@ Study Ukrainian - Ukrainian Grammar
 
       $topic = "Verbs";
       $titles = ["Present Tense", "Past Tense", "Future Tense"];
-      $links  = ["grammar/present-tense/", "grammar/past-tense/", "grammar/future-tense"];
+      $links  = ["grammar/present-tense", "grammar/past-tense", "grammar/future-tense"];
 
       for ($i = 0; $i <= count($titles) - 1; $i++) {
 
@@ -72,7 +72,7 @@ Study Ukrainian - Ukrainian Grammar
 
       $topic = "Nouns and Adjectives";
       $titles = ["Plurals", "Pronouns"];
-      $links  = ["grammar/plurals/", "grammar/pronouns/"];
+      $links  = ["grammar/plurals", "grammar/pronouns"];
 
       for ($i = 0; $i <= count($titles) - 1; $i++) {
 
@@ -112,7 +112,7 @@ Study Ukrainian - Ukrainian Grammar
 
       $topic = "Noun Cases";
       $titles = ["Genitive"];
-      $links  = ["grammar/genitive/"];
+      $links  = ["grammar/genitive"];
 
       for ($i = 0; $i <= count($titles) - 1; $i++) {
 

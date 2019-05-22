@@ -18,7 +18,7 @@ Study Ukrainian - About
       <div class="row justify-content-around">
 
         <div class="col-12 col-md-4 col-lg-3 text-center">
-          <img class="img-fluid rounded mx-auto" src="../img/lviv.jpg" alt"Lviv">
+          <img class="img-fluid rounded mx-auto" src="../img/lviv.jpg" alt="Lviv">
         </div>
 
         <div class="col-12 col-md-6 mt-3 my-md-auto">
