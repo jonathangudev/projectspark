@@ -84,42 +84,40 @@
 
         <div class="">
 
-            <header>
-                <!-- Fixed navbar -->
-                <nav class="navbar navbar-expand navbar-light fixed-top bg-white">
+            <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand navbar-light fixed-top bg-white">
 
-                    <ul class="navbar-nav navbar-right  ml-auto align-items-end">
+                <ul class="navbar-nav navbar-right  ml-auto align-items-end">
 
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="/lessons">Lessons</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lessons">Lessons</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="/grammar">Grammar</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/grammar">Grammar</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="/blog">Blog</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog">Blog</a>
+                    </li>
 
-                        <li>
-                            <a class="nav-link" href="/login">
-                                <button class="btn btn-primary btn-sm"> Login</button>
-                            </a></li>
+                    <li>
+                        <a class="nav-link" href="/login">
+                            <button class="btn btn-primary btn-sm"> Login</button>
+                        </a></li>
 
-                        <li>
-                            <a class="nav-link" href="/register">
-                                <button class="btn btn-primary btn-sm"> Register</button>
-                            </a></li>
+                    <li>
+                        <a class="nav-link" href="/register">
+                            <button class="btn btn-primary btn-sm"> Register</button>
+                        </a></li>
 
-                    </ul>
-                </nav>
-            </header>
+                </ul>
+            </nav>
 
             <!-- Begin page content -->
             <main role="main" class="container mt-5">
