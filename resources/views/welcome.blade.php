@@ -89,23 +89,6 @@
 
                 <ul class="navbar-nav navbar-right  ml-auto align-items-end">
 
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/lessons">Lessons</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/grammar">Grammar</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/blog">Blog</a>
-                    </li>
-
                     <li>
                         <a class="nav-link" href="/login">
                             <button class="btn btn-primary btn-sm"> Login</button>
@@ -146,6 +129,25 @@
                             <div class="text-center">
                                 <a href="/lessons" class="btn btn-sm btn-secondary mx-auto">Start learning now</a>
                             </div>
+
+                            <ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/lessons">Lessons</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/grammar">Grammar</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/about">About</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/blog">Blog</a>
+                                </li>
+                            </ul>
+
                         </div>
 
                     </div>
