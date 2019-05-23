@@ -10,10 +10,8 @@ How to Learn Ukrainian Online
     <div class="container">
 
         <h1 class="entry-title">How to Learn Ukrainian Online</h1>
-        <div class="entry-meta"><span class="posted-on"><a href="https://www.studyukrainian.com/blog/2018/09/15/how-to-learn-ukrainian-online/" rel="bookmark"><time class="entry-date published" datetime="2018-09-15T23:17:42+00:00">September 15, 2018</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="https://www.studyukrainian.com/blog/author/studyukrainian_ra1wnn/">John Gu</a></span></span></div>
-        </header>
+
         <div class="entry-content">
-            <div><img class="size-full wp-image-20 aligncenter" src="https://www.studyukrainian.com/blog/wp-content/uploads/2018/09/how-to-learn-ukrainian-online.jpg" sizes="(max-width: 600px) 100vw, 600px" srcset="https://www.studyukrainian.com/blog/wp-content/uploads/2018/09/how-to-learn-ukrainian-online.jpg 600w, https://www.studyukrainian.com/blog/wp-content/uploads/2018/09/how-to-learn-ukrainian-online-300x200.jpg 300w, https://www.studyukrainian.com/blog/wp-content/uploads/2018/09/how-to-learn-ukrainian-online-400x267.jpg 400w" alt="" width="600" height="400" /></div>
             <div>I&rsquo;m going to write another post later on about how to learn Ukrainian in Ukraine, but I wanted to share with you guys a way to learn Ukrainian if you&rsquo;re not in the country.</div>
             <h2>Step 1: &nbsp;Find a Resource</h2>
             <div>When I first started learning Ukrainian a couple of years ago, there were not many good online resources for learning Ukrainian. &nbsp;Obviously, I recommend the Study Ukrainian course here on&nbsp;<a href="https://studyukrainian.com/lessons">this website</a>, but there are also some other pretty good courses out there.</div>
