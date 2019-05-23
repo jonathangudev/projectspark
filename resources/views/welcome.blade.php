@@ -130,23 +130,15 @@
                                 <a href="/lessons" class="btn btn-sm btn-secondary mx-auto">Start learning now</a>
                             </div>
 
-                            <ul class="navbar navbar-expand navbar-light bg-white">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/lessons">Lessons</a>
-                                </li>
+                            <div class="flex flex-row justify-content-around mt-3">
+                                <a class="nav-link" href="/lessons">Lessons</a>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/grammar">Grammar</a>
-                                </li>
+                                <a class="nav-link" href="/grammar">Grammar</a>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/about">About</a>
-                                </li>
+                                <a class="nav-link" href="/about">About</a>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/blog">Blog</a>
-                                </li>
-                            </ul>
+                                <a class="nav-link" href="/blog">Blog</a>
+                            </div>
 
                         </div>
 
