@@ -126,18 +126,15 @@
                                 <li>Learn how to manage day-to-day situations in Ukrainian.</li>
                                 <li>Full grammar explanations and word-for-word translations of all dialogues.</li>
                             </ul>
-                            <div class="text-center">
-                                <a href="/lessons" class="btn btn-sm btn-secondary mx-auto">Start learning now</a>
-                            </div>
 
-                            <div class="flex flex-row justify-content-around mt-3">
-                                <a class="" href="/lessons">Lessons</a>
+                            <div class="d-flex flex-row justify-content-around mt-3">
+                                <a class="" href="/lessons"><button class="btn btn-sm btn-primary"> Lessons </button></a>
 
-                                <a class="" href="/grammar">Grammar</a>
+                                <a class="" href="/grammar"><button class="btn btn-sm btn-danger"> Grammar </button></a>
 
-                                <a class="" href="/about">About</a>
+                                <a class="" href="/about"><button class="btn btn-sm btn-secondary"> About </button></a>
 
-                                <a class="" href="/blog">Blog</a>
+                                <a class="" href="/blog"><button class="btn btn-sm btn-info"> Blog </button></a>
                             </div>
 
                         </div>
