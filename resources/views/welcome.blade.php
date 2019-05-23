@@ -131,13 +131,13 @@
                             </div>
 
                             <div class="flex flex-row justify-content-around mt-3">
-                                <a class="nav-link" href="/lessons">Lessons</a>
+                                <a class="" href="/lessons">Lessons</a>
 
-                                <a class="nav-link" href="/grammar">Grammar</a>
+                                <a class="" href="/grammar">Grammar</a>
 
-                                <a class="nav-link" href="/about">About</a>
+                                <a class="" href="/about">About</a>
 
-                                <a class="nav-link" href="/blog">Blog</a>
+                                <a class="" href="/blog">Blog</a>
                             </div>
 
                         </div>
