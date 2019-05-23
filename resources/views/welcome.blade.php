@@ -130,7 +130,7 @@
                                 <a href="/lessons" class="btn btn-sm btn-secondary mx-auto">Start learning now</a>
                             </div>
 
-                            <ul>
+                            <ul class="navbar navbar-expand navbar-light bg-white">
                                 <li class="nav-item">
                                     <a class="nav-link" href="/lessons">Lessons</a>
                                 </li>
