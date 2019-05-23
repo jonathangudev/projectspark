@@ -68,15 +68,15 @@ Route::get('/blog', function () {
 
 Route::get('/blog/2018/09/29/how-i-learned-ukrainian', function () {
     return view('blog.blog1');
-});
+})->name('blog-how-i');;
 
 Route::get('/blog/2018/09/22/where-to-learn-ukrainian-in-lviv', function () {
     return view('blog.blog2');
-});
+})->name('blog-where-to');
 
 Route::get('/blog/2018/09/15/how-to-learn-ukrainian-online', function () {
     return view('blog.blog3');
-});
+})->name('blog-how-to');
 
 
 class Lesson
