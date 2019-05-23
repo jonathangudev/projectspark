@@ -60,6 +60,24 @@ Route::get('/grammar/{grammar_topic}', function ($grammar_topic) {
 //end static pages
 
 
+//blog routes
+
+Route::get('/blog', function () {
+    return view('blog')
+});
+
+Route::get('/blog/2018/09/29/how-i-learned-ukrainian', function () {
+    return view('blog1')
+});
+
+Route::get('/blog/2018/09/22/where-to-learn-ukrainian-in-lviv', function () {
+    return view('blog2')
+});
+
+Route::get('/blog/2018/09/15/how-to-learn-ukrainian-online', function () {
+    return view('blog3')
+});
+
 
 class Lesson
 {
