@@ -15,10 +15,10 @@
 
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/login">{{__('Login')}}</a>
+                    <a class="nav-link" href="/login"><button class="btn btn-primary btn-sm">Login</button></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/register">{{__('Register')}}</a>
+                    <a class="nav-link" href="/premium"><button class="btn btn-primary btn-sm">Premium</button></a>
                 </li>
             </ul>
         </div>
