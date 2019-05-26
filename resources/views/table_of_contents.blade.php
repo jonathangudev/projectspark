@@ -26,7 +26,7 @@ Study Ukrainian - Ukrainian Lessons
     /* Fallback color */
     background: rgba(0, 0, 0, 0.5);
     /* Black background with 0.5 opacity */
-    color: #f1f1f1;
+    color: #FFD700;
     /* Grey text */
     width: 100%;
     /* Full width */

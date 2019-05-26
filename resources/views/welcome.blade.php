@@ -101,7 +101,7 @@
 
                     <li>
                         <a class="nav-link" href="/lessons">
-                            <button class="btn btn-secondary btn-sm"> Free Lessons</button>
+                            <button class="btn btn-info btn-sm"> Free Lessons</button>
                         </a></li>
 
 
