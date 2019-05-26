@@ -95,9 +95,15 @@
                         </a></li>
 
                     <li>
-                        <a class="nav-link" href="/register">
-                            <button class="btn btn-primary btn-sm"> Register</button>
+                        <a class="nav-link" href="/premium">
+                            <button class="btn btn-primary btn-sm"> Premium</button>
                         </a></li>
+
+                    <li>
+                        <a class="nav-link" href="/lessons">
+                            <button class="btn btn-secondary btn-sm"> Free Lessons</button>
+                        </a></li>
+
 
                 </ul>
             </nav>
@@ -128,13 +134,13 @@
                             </ul>
 
                             <div class="d-flex flex-row justify-content-around mt-3">
-                                <a class="" href="/lessons"><button class="btn btn-sm btn-primary"> Lessons </button></a>
+                                <a class="" href="/lessons">Lessons</a> |
 
-                                <a class="" href="/grammar"><button class="btn btn-sm btn-danger"> Grammar </button></a>
+                                <a class="" href="/grammar">Grammar</a> |
 
-                                <a class="" href="/about"><button class="btn btn-sm btn-secondary"> About </button></a>
+                                <a class="" href="/about">About</a> |
 
-                                <a class="" href="/blog"><button class="btn btn-sm btn-info"> Blog </button></a>
+                                <a class="" href="/blog">Blog</a>
                             </div>
 
                         </div>
