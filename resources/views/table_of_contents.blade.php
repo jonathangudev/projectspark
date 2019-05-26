@@ -24,7 +24,7 @@ Study Ukrainian - Ukrainian Lessons
     /* At the bottom. Use top:0 to append it to the top */
     background: rgb(255, 215, 0);
     /* Fallback color */
-    background: rgba(255, 215, 0, 0.5);
+    background: rgba(255, 215, 0, 0.6);
     /* Black background with 0.5 opacity */
     color: #FFFFFF;
     /* Grey text */
@@ -32,6 +32,9 @@ Study Ukrainian - Ukrainian Lessons
     /* Full width */
     padding: 8px;
     /* Some padding */
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: purple;
   }
 </style>
 @endsection
