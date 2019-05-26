@@ -54,16 +54,10 @@ class SparkServiceProvider extends ServiceProvider
 
         Spark::useStripe();
 
-
-        Spark::freePlan()
-            ->features([
-                'First', 'Second', 'Third'
-            ]);
-
         Spark::plan('Basic', 'provider-id-1')
-            ->price(10)
+            ->price(3.99)
             ->features([
-                'First', 'Second', 'Third'
+                'Full access to 25 Ukrainian language lessons', 'Fully-voiced audio by native speakers', 'Grammar Explanations for lessons and dialogues'
             ]);
     }
 }

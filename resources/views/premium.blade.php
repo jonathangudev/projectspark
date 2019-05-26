@@ -18,27 +18,29 @@ Study Ukrainian - Premium
             <div class="row justify-content-around">
 
                 <div class="col-12 mt-4">
-                    <h2>Study Ukrainian Premium comes with the following features:</h2>
+                    <div class="lead">Study Ukrainian Premium comes with the following features:</div>
 
                     <ul>
                         <li>
-                            <h3>Full access to 25 lessons of the Ukrainian Language<h3>
+                            <div class="lead">Full access to 25 Ukrainian language lessons</div>
                         </li>
                         <li>
-                            <h3>Fully-voiced audio by native speakers<h3>
+                            <div class="lead">Fully-voiced audio by native speakers</div>
                         </li>
                         <li>
-                            <h3>Grammar Explanations for each lesson<h3>
+                            <div class="lead">Grammar Explanations for lessons and dialogues</div>
                         </li>
                     </ul>
 
-                    <h3>Price: $3.99 per month</h3>
+                    <div class="lead text-center">Price: $3.99 per month</div>
 
                 </div>
 
             </div>
 
-            <button class="button btn-primary btn-lg mt-4">Sign Up Now</button>
+            <div class="text-center">
+                <a href="/register"><button class="button btn-primary btn-lg mt-4">Sign Up Now</button></a>
+            </div>
 
         </div>
     </div>
