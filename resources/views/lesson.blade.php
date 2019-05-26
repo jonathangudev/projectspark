@@ -15,12 +15,13 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
 <script>
-  $('##exampleModal').modal({
-    backdrop: 'static',
-    keyboard: false
-  })
-
-  $('#exampleModal').modal('show');
+  $(window).on('load', function() {
+    $('#exampleModal').modal({
+      backdrop: 'static',
+      keyboard: false,
+      show: true
+    });
+  });
 
   function transliterate() {
     $(".foreign-script").toggle();
