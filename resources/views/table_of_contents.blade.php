@@ -74,6 +74,17 @@ Study Ukrainian - Ukrainian Lessons
 
         $topic_text = $topics_array[$i - 1];
 
+        //check if dialogue number is in the premium list
+        if (in_array($i, $premiumDialogueNumbers)) {
+          $premiumGated = true;
+        } else {
+          $premiumGated = false;
+        }
+
+        if ($subscribed) {
+          $premiumGated = false;
+        }
+
 
         ?>
 
@@ -81,12 +92,19 @@ Study Ukrainian - Ukrainian Lessons
 
         <div class="col-6 mt-3 col-md-3">
           <div class="card">
+
+            @if($premiumGated)
             <div class="image-container">
               <a href="<?php echo "lessons/$i"; ?>"><img class="card-img-top" src="<?php echo "../img/$index.jpg"; ?>" alt="Card image cap"></a>
               <div class="image-text">
-                <h2>Premium</h2>
+                <h3>Premium</h3>
               </div>
             </div>
+            @else
+            <a href="<?php echo "lessons/$i"; ?>"><img class="card-img-top" src="<?php echo "../img/$index.jpg"; ?>" alt="Card image cap"></a>
+
+            @endif
+
 
             <div class="card-body">
               <div class="card-title text-center"><?php echo "<b>Lesson $i</b>: $topic_text"; ?></div>

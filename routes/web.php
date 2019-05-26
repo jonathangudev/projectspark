@@ -36,7 +36,14 @@ Route::get('/links', function () {
 
 Route::get('/lessons', function () {
     $premiumDialogueNumbers = [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25];
-    return view('table_of_contents', ['premiumDialogueNumbers' => $premiumDialogueNumbers]);
+
+    //if user is subscribed, never gate any premium lessons: all lessons will be available
+    if (Auth::user() && Auth::user()->subscribed()) {
+        $subscribed = true;
+    } else {
+        $subscribed = false;
+    }
+    return view('table_of_contents', ['premiumDialogueNumbers' => $premiumDialogueNumbers, 'subscribed' => $subscribed]);
 });
 
 Route::get('/toc', function () {
