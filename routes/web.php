@@ -47,13 +47,23 @@ Route::get('/grammar', function () {
     return view('grammar_toc');
 });
 
+
 Route::get('/lessons/{dialogue_number}', function ($dialogue_number) {
+    //Manually set which dialogues are premium
+    $premiumDialogueNumbers = [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25];
+
+    if (in_array($dialogue_number, $premiumDialogueNumbers)) {
+        $premiumGated = true;
+    } else {
+        $premiumGated = false;
+    }
 
     $lesson = new Lesson($dialogue_number);
 
     return view('lesson', [
         'dialogue_number'   => $dialogue_number,
-        'lesson'            => $lesson
+        'lesson'            => $lesson,
+        'premiumGated'      => $premiumGated,
     ]);
 });
 

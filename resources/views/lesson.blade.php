@@ -16,6 +16,7 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 <script>
+  @if(isset($premiumGated) && $premiumGated)
   $(window).on('load', function() {
     $('#exampleModal').modal({
       backdrop: 'static',
@@ -23,6 +24,7 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
       show: true
     });
   });
+  @endif
 
   function transliterate() {
     $(".foreign-script").toggle();
@@ -65,11 +67,7 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
 <home :user="user" inline-template>
   <div class="container">
 
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-      Launch demo modal
-    </button>
-
+    @if(isset($premiumGated) && $premiumGated)
     <!-- Modal -->
     <div class="modal show" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -87,6 +85,7 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
         </div>
       </div>
     </div>
+    @endif
 
     <!-- Title -->
     <div class="text-center">
