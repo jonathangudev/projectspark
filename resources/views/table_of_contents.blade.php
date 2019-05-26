@@ -83,7 +83,7 @@ Study Ukrainian - Ukrainian Lessons
           <div class="card">
             <div class="image-container">
               <a href="<?php echo "lessons/$i"; ?>"><img class="card-img-top" src="<?php echo "../img/$index.jpg"; ?>" alt="Card image cap"></a>
-              <div class="image-content">
+              <div class="image-text">
                 <h2>Premium</h2>
               </div>
             </div>
