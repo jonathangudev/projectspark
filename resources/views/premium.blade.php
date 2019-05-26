@@ -32,7 +32,7 @@ Study Ukrainian - Premium
                         </li>
                     </ul>
 
-                    <div class="lead text-center">Price: $3.99 per month</div>
+                    <div class="lead text-center">Price: <strike>$3.99</strike> $0.99 per month</div>
 
                 </div>
 
