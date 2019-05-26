@@ -22,11 +22,11 @@ Study Ukrainian - Ukrainian Lessons
     /* Position the background text */
     top: 0;
     /* At the bottom. Use top:0 to append it to the top */
-    background: rgb(255, 215, 0);
+    background: rgb(218, 165, 32);
     /* Fallback color */
-    background: rgba(255, 215, 0, 0.6);
+    background: rgba(218, 165, 32, 0.6);
     /* Black background with 0.5 opacity */
-    color: purple;
+    color: white;
     /* Grey text */
     width: 100%;
     /* Full width */
