@@ -81,7 +81,7 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
           </div>
           <div class="modal-footer text center">
             <a href="/lessons"><button type="button" class="btn btn-primary">
-                Find free lessons</button></a>
+                Browse free lessons</button></a>
 
             <a href="/premium"><button type="button" class="btn btn-primary">Get Premium!</button></a>
           </div>

@@ -7,6 +7,33 @@ Study Ukrainian - Ukrainian Lessons
 
 @section('css')
 <link href="css/extra-styles.css" rel="stylesheet">
+
+<style>
+  .image-container {
+    position: relative;
+    max-width: 800px;
+    /* Maximum width */
+    margin: 0 auto;
+    /* Center it */
+  }
+
+  .image-container .image-text {
+    position: absolute;
+    /* Position the background text */
+    bottom: 0;
+    /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    width: 100%;
+    /* Full width */
+    padding: 20px;
+    /* Some padding */
+  }
+</style>
 @endsection
 
 
@@ -54,7 +81,13 @@ Study Ukrainian - Ukrainian Lessons
 
         <div class="col-6 mt-3 col-md-3">
           <div class="card">
-            <a href="<?php echo "lessons/$i"; ?>"><img class="card-img-top" src="<?php echo "../img/$index.jpg"; ?>" alt="Card image cap"></a>
+            <div class="image-container">
+              <a href="<?php echo "lessons/$i"; ?>"><img class="card-img-top" src="<?php echo "../img/$index.jpg"; ?>" alt="Card image cap"></a>
+              <div class="image-content">
+                <h2>Premium</h2>
+              </div>
+            </div>
+
             <div class="card-body">
               <div class="card-title text-center"><?php echo "<b>Lesson $i</b>: $topic_text"; ?></div>
               <p class="card-text text-center"></p>

@@ -35,8 +35,8 @@ Route::get('/links', function () {
 });
 
 Route::get('/lessons', function () {
-    //eturn view('lessons');
-    return view('table_of_contents');
+    $premiumDialogueNumbers = [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25];
+    return view('table_of_contents', ['premiumDialogueNumbers' => $premiumDialogueNumbers]);
 });
 
 Route::get('/toc', function () {
