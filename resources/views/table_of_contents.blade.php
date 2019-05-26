@@ -20,7 +20,7 @@ Study Ukrainian - Ukrainian Lessons
   .image-container .image-text {
     position: absolute;
     /* Position the background text */
-    bottom: 0;
+    top: 0;
     /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0);
     /* Fallback color */
@@ -30,7 +30,7 @@ Study Ukrainian - Ukrainian Lessons
     /* Grey text */
     width: 100%;
     /* Full width */
-    padding: 20px;
+    padding: 10px;
     /* Some padding */
   }
 </style>
