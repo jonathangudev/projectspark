@@ -30,7 +30,7 @@ Study Ukrainian - Ukrainian Lessons
     /* Grey text */
     width: 100%;
     /* Full width */
-    padding: 10px;
+    padding: 8px;
     /* Some padding */
   }
 </style>
@@ -96,8 +96,8 @@ Study Ukrainian - Ukrainian Lessons
             @if($premiumGated)
             <div class="image-container">
               <a href="<?php echo "lessons/$i"; ?>"><img class="card-img-top" src="<?php echo "../img/$index.jpg"; ?>" alt="Card image cap"></a>
-              <div class="image-text">
-                <h3>Premium</h3>
+              <div class="image-text text-center">
+                <h5>★ Premium</h5>
               </div>
             </div>
             @else
