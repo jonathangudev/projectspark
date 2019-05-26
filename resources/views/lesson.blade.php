@@ -77,9 +77,12 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
 
           </div>
           <div class="modal-body">
-            This lesson is only available for Study Ukrainian Premium members. Get premium for only $3.99 per month.
+            This lesson is only available for Study Ukrainian Premium members. Get premium for only $3.99 per month!
           </div>
           <div class="modal-footer text center">
+            <a href="/lessons"><button type="button" class="btn btn-primary">
+                Find free lessons</button></a>
+
             <a href="/premium"><button type="button" class="btn btn-primary">Get Premium!</button></a>
           </div>
         </div>

@@ -52,9 +52,15 @@ Route::get('/lessons/{dialogue_number}', function ($dialogue_number) {
     //Manually set which dialogues are premium
     $premiumDialogueNumbers = [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25];
 
+    //check if dialogue number is in the premium list
     if (in_array($dialogue_number, $premiumDialogueNumbers)) {
         $premiumGated = true;
     } else {
+        $premiumGated = false;
+    }
+
+    //if user is subscribed, never gate any premium lessons: all lessons will be available
+    if (Auth::user() && Auth::user()->subscribed()) {
         $premiumGated = false;
     }
 
