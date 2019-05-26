@@ -25,6 +25,11 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/premium', function () {
+    return view('premium');
+});
+
+
 Route::get('/links', function () {
     return view('links');
 });
