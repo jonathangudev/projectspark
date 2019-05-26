@@ -26,15 +26,14 @@ Study Ukrainian - Ukrainian Lessons
     /* Fallback color */
     background: rgba(255, 215, 0, 0.6);
     /* Black background with 0.5 opacity */
-    color: #FFFFFF;
+    color: purple;
     /* Grey text */
     width: 100%;
     /* Full width */
     padding: 8px;
     /* Some padding */
 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: purple;
+
   }
 </style>
 @endsection
