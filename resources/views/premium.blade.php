@@ -17,7 +17,7 @@ Study Ukrainian - Premium
             <h1 class="text-center"> Get Study Ukrainian Premium </h1>
             <div class="row justify-content-around">
 
-                <div class="col-12 ">
+                <div class="col-12 mt-4">
                     <h2>Study Ukrainian Premium comes with the following features:</h2>
 
                     <ul>
@@ -34,10 +34,12 @@ Study Ukrainian - Premium
 
                     <h3>Price: $3.99 per month</h3>
 
-                    <button class="button btn-primary btn-lg">Sign Up Now</button>
                 </div>
 
             </div>
-        </div>S
+
+            <button class="button btn-primary btn-lg mt-4">Sign Up Now</button>
+
+        </div>
     </div>
 </home> @endsection
