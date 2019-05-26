@@ -15,6 +15,11 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
 <script>
+  $('##exampleModal').modal({
+    backdrop: 'static',
+    keyboard: false
+  })
+
   $('#exampleModal').modal('show');
 
   function transliterate() {
@@ -64,7 +69,7 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
     </button>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade in" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -72,10 +77,10 @@ Study Ukrainian - Ukrainian Lesson <?php echo $dialogue_number; ?>
 
           </div>
           <div class="modal-body">
-            This lesson is only available for Study Ukrainian Premium members.
+            This lesson is only available for Study Ukrainian Premium members. Get premium for only $3.99 per month.
           </div>
           <div class="modal-footer text center">
-            <button type="button" class="btn btn-primary">Get Premium!</button>
+            <a href="/premium"><button type="button" class="btn btn-primary">Get Premium!</button></a>
           </div>
         </div>
       </div>
