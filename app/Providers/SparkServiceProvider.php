@@ -54,7 +54,7 @@ class SparkServiceProvider extends ServiceProvider
 
         Spark::useStripe();
 
-        Spark::plan('Study Ukrainian Premium', 'provider-id-1')
+        Spark::plan('Study Ukrainian Premium', 'plan_FQlfPQvCPsm938')
             ->price(0.99)
             ->features([
                 'Full access to 25 Ukrainian language lessons', 'Fully-voiced audio by native speakers', 'Grammar Explanations for lessons and dialogues'
