@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Meta Information -->
     <meta charset="utf-8">
@@ -16,6 +17,20 @@
     <link href="{{ mix(Spark::usesRightToLeftTheme() ? 'css/app-rtl.css' : 'css/app.css') }}" rel="stylesheet">
 
     <!-- Scripts -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100622268-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-100622268-2');
+    </script>
+
     @stack('scripts')
 
     <!-- Global Spark Object -->
@@ -23,13 +38,14 @@
         window.Spark = @json(array_merge(Spark::scriptVariables(), []));
     </script>
 </head>
+
 <body>
     <div id="spark-app" v-cloak>
         <!-- Navigation -->
         @if (Auth::check())
-            @include('spark::nav.user')
+        @include('spark::nav.user')
         @else
-            @include('spark::nav.guest')
+        @include('spark::nav.guest')
         @endif
 
         <!-- Main Content -->
@@ -39,9 +55,9 @@
 
         <!-- Application Level Modals -->
         @if (Auth::check())
-            @include('spark::modals.notifications')
-            @include('spark::modals.support')
-            @include('spark::modals.session-expired')
+        @include('spark::modals.notifications')
+        @include('spark::modals.support')
+        @include('spark::modals.session-expired')
         @endif
     </div>
 
@@ -49,4 +65,5 @@
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="/js/sweetalert.min.js"></script>
 </body>
+
 </html>
