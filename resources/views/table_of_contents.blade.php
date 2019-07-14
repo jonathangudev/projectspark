@@ -24,7 +24,7 @@ Study Ukrainian - Ukrainian Lessons
     /* At the bottom. Use top:0 to append it to the top */
     background: rgb(218, 165, 32);
     /* Fallback color */
-    background: rgba(218, 165, 32, 0.6);
+    background: rgba(218, 165, 32, 0.8);
     /* Black background with 0.5 opacity */
     color: white;
     /* Grey text */
